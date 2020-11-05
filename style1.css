@@ -1,0 +1,778 @@
+/*définition police*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap');
+
+/*body*/
+
+#bloc-page 
+{
+   width: 100%;
+   /* margin: auto; */
+   /* min-width: 320px; */
+   /* margin-top: 0px; */
+   font-family: 'Raleway', sans-serif;
+ }
+
+/*couleur et tailles deslogos*/
+.fas
+{
+	color: #0065FC;
+	font-size: 12px;	
+}
+
+.far
+{
+	color: #0065FC;
+	font-size: 12px;	
+}
+
+/*tailles des titres*/
+h1
+{
+	
+	font-size: 1.4em;     
+}
+
+h2
+{
+	font-size: 1em;
+}
+
+h3
+{
+	font-size: 0.9em;
+	font-weight: lighter;
+	
+}
+
+
+/*texture des liens*/
+a
+{
+	text-decoration: none;
+	color: black;
+	width: auto;
+}
+
+/*header*/
+header
+{
+	display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: auto;
+    padding-top: 0px;
+ 	padding-bottom: 20px;
+	
+}
+
+/*logo reservia*/
+
+#logo >img
+{
+	height: 45px;
+	padding-top: 40px;
+	padding-left: 25px;
+	object-fit: cover;
+}
+/*barre de navigation*/
+.navbarre
+{
+	min-width: 500px;
+	height: 50px;
+}
+
+
+.navbarre >ul
+{
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	color: #0065FC;
+}
+
+.navbarre >ul >li
+{
+	width: auto;
+	display: block;
+	padding-top: 40px;
+	
+
+
+}
+
+
+#hebergements
+{
+	border-top: solid 1px #0065FC;
+	padding-top: 39px;		
+}
+
+#hebergements >a
+{
+	color: #0065FC;
+}
+
+#navbold
+{
+	font-weight: bold;
+}
+
+
+
+/*section head*/
+
+.section_head
+{
+	margin: auto;	
+	width: auto;
+	padding-left: 25px;
+
+
+}
+
+#title1_section_head
+{
+	margin-bottom: 5px;
+	
+}
+
+#subtitle_section_head
+{
+	margin-top: 2px;
+	margin-bottom: 20px;
+}
+
+
+/* section head barre de recherche*/
+
+input
+{
+	border: none;
+	width: 200px;
+	font-size: 1em;
+
+	
+}
+
+input::placeholder
+{
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+
+}
+
+form 
+{
+	border: solid 1px #F2F2F2;
+	border-radius: 10px;
+	width: fit-content;
+	height: 50px;
+
+}
+
+button
+{
+	color: white;
+	background-color: #0065FC;
+	border: 2px #0065FC;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-size: 1em;
+	height: 50px;
+	margin-left: 0;
+	width: 110px;
+	font-style: normal;
+	
+
+}
+
+#logo_gps
+
+{
+  color: black;
+  background-color: #F2F2F2;
+  border: 19px solid  #F2F2F2;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 80px;
+  height: 50px;  	
+}
+
+#logo_black
+
+{
+	color: black;
+	font-size: 20px;
+
+}
+  	
+/* présentation filtres*/
+
+.navfiltres
+
+{
+	
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: auto;
+}
+
+
+
+.navfiltres h2
+{
+	display: inline-flex;
+	font-size: 1.1em;
+
+	
+
+}
+
+.navfiltres >ul
+{
+	display: inline-flex;
+	list-style-type: none;
+	width: 900px;
+	height: 50px;
+	justify-content: space-between;
+	padding-left: 50px;
+	
+	
+	
+}
+
+.navfiltres a
+{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+.all_logos
+{
+	background-color:#DEEBFF;
+ 	border-radius: 50%;
+  	width: 50px;
+  	height: 37px;
+  	border: 1px solid #DEEBFF;
+ 	display: block;
+ 	position: absolute;
+ 	left:-10px;
+ 	text-align: center;
+ 	top:50%;
+ 	transform: translateY(-50%);
+  	
+}
+
+.logos_filtres
+
+{
+	font-size: 25px;
+	padding-top: 12px;
+
+	
+
+}
+
+.filtres
+{
+	display: inline-flex;
+	border: solid 2px lightgray;
+	border-radius: 30px;
+	width: auto;
+	height: 50px;
+	line-height: 50px;
+	padding-right: 30px;
+	padding-left: 60px;
+	position: relative;
+	
+}
+
+
+.filtres:hover
+{
+	text-decoration: underline;
+	color: grey;
+}
+
+
+
+/*titres logements disponibles avec logo info*/
+#info
+{
+	padding-top: 5px;
+}
+
+.circle
+{
+	width: 20px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+    border: 2px solid #F2F2F2;
+}
+
+#h3_filtres
+{
+	
+	display: inline-flex;
+	padding-left: 5px;
+
+}
+
+
+/*section middle*/
+
+/*hébergements à Marseille*/
+.sectionmiddle
+{
+	display: flex;
+	margin: auto;
+	width: auto;
+}
+
+.sectionmiddle >b
+{
+	font-weight: bold;
+}
+
+
+.hebergement_a_marseille
+{
+	background-color: #F2F2F2;
+	margin: 20px;
+	padding: 20px;
+	list-style-type: none;
+	border-radius: 10px;
+	width: auto;
+	height: auto;
+
+}
+
+
+.hebergement_a_marseille h3
+
+{
+	font-size: 0.9em;
+}
+
+.container 
+{
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	padding: 0px;
+	margin-bottom: 30px;
+	width: auto;
+
+}
+
+
+.flex
+{
+	background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    list-style-type: none;
+    margin: 10px;
+    margin-bottom: 25px;
+    box-shadow: 4px 4px 6px grey;
+}
+
+.imgflex1 
+{
+	
+	height: 100px;
+	width: 230px;
+	border-radius: 10px 10px 0px 0px;
+	object-fit: cover;
+}
+
+
+.h_section_mid
+{
+	padding-left: 15px;
+	padding-top: 5px;
+	margin: auto;
+	
+}
+
+
+
+.stars_sectionmid
+{
+	padding-left: 15px;
+	padding-top: 5px;
+
+}
+
+.title_midd{
+
+	margin-left: 40px;
+}
+
+.subtitle_midd
+{
+	font-size: 1.2em;
+	padding-left: 40px;
+	padding-top: 30px;
+
+}
+
+/*aside*/
+/*les plus populaires (titre et logo)*/
+
+.aside-title
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-left: 40px;
+
+}
+
+.aside-title >h2
+{
+	margin: 0;
+	font-size: 1.4em;
+
+}
+
+#logo_graph
+{
+	font-size: 20px;
+	color: black;
+}
+
+/*aside fond gris*/
+.aside
+{
+	background-color: #F2F2F2;
+	margin: 20px;
+	padding: 20px;
+	padding-bottom: 0px;
+	border-radius: 10px;
+	height: auto;
+}
+	
+.container_aside
+{
+	justify-content: space-around;
+	flex-flow: row wrap;
+	padding: 20px;
+	margin: 20px;
+	width: auto;
+	list-style-type: none;
+}
+
+.subtitle_aside
+{
+	align-self: center;
+}
+
+/*vignettes blanches*/
+
+.imgflex2 {
+	
+	height: 130px;
+	width: 130px;
+	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	justify-content: center;
+
+}
+
+
+.flex_aside
+{
+	background-color: white;
+	border-radius: 10px;
+	padding: 5px;
+	margin-bottom: 25px;
+	box-shadow: 4px 4px 6px grey;
+	width: 350px;
+	
+
+}
+
+.flex_aside >a
+{
+	
+	display: flex;
+	align-items: center;
+}
+
+
+/*titres et logos des vignettes blanches*/
+.titles
+
+{
+	margin-left: 20px;	
+}
+
+.h_aside 
+
+{
+	margin: 2px;
+	display: block;		
+}
+
+.h2_aside
+{
+	display: flex;	
+}
+
+.stars
+{
+	margin: auto;
+	width: auto;	
+}
+
+
+/*section bottom*/
+
+.sectionbottom
+{
+	width: auto;
+	margin: auto;
+}
+
+/*activités à Marseille*/
+
+/*titre*/
+
+#h_section_bot
+{
+	margin-left: 30px;
+	padding-top: 30px;
+	margin-bottom: 0px;
+}
+
+/*container images avec titres*/
+
+.container2
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: auto;
+	width: auto;
+	padding-left: 0px;
+	margin-top: 0px;	
+}
+
+.container2 li
+{
+	border: solid white 1px;
+	background-color: white;
+	box-shadow: 5px 5px 5px 5px #F2F2F2;
+	list-style-type: none;
+	margin: auto;
+	height: auto;
+	justify-content: space-between;
+}
+
+/*petites images*/
+
+.imgflexsmall
+{
+
+	height: 130px;
+	width: 300px;
+	border-radius: 10px 10px 0px 0px;
+	object-fit: cover;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*moyennes images*/
+.imgflexmedium
+{
+	height: 220px;
+	width: 300px;
+	border-radius: 10px 10px 0px 0px;
+	object-fit: cover;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*grandes images*/
+
+.imgflexlarge
+{
+	height: 455px;
+	width: 300px;
+	border-radius: 10px 10px 0px 0px;
+	object-fit: cover;
+	padding: 0px;
+	margin: 0px;	
+}
+
+.container2 h2
+
+{
+	padding-left: 15px;
+}
+
+
+/*footer*/
+
+.footer
+{	background-color: #F2F2F2;
+	display: flex;
+	justify-content: space-between;
+	width: auto;
+	margin: auto;
+}
+
+.footer h2
+{
+	margin-left: 35px;
+}
+
+/*colonne à propos*/
+.a_propos
+{
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+.a_propos li
+
+{
+	list-style-type: none;
+	font-size: 0.9em;
+	padding: 5px;
+	padding-left: 0px;
+}
+
+
+
+/*colonne nos hébergements*/
+
+.nos_hebergements
+{
+	list-style-type: none;
+	margin: 20px;
+}
+
+.nos_hebergements li
+
+{
+	list-style-type: none;
+	font-size: 0.9em;
+	padding: 5px;
+	padding-left: 0px;
+}
+
+
+/*colonne assistance*/
+
+.assistance
+{
+	margin: 20px;a
+	margin-right: 20%;
+}
+
+.assistance li
+
+{
+	list-style-type: none;
+	font-size: 0.9em;
+	padding: 5px;
+	padding-left: 0px;
+}
+
+
+
+
+/*site responsive*/
+
+
+
+/*ordinateurs*/
+
+/*@media all and (max-width: 1300px) {
+  
+header {
+	width: auto;
+}
+
+ 
+
+
+  
+}
+
+tablettes
+
+@media screen (min-width: 768px) and (max-width: 991px){
+
+	
+	
+
+}*/
+
+/*smartphone*/
+
+/*@media all and (max-width: 768px){
+
+ aside {
+ 	top: 100%;
+ 	left: 50%;
+ 	margin-left: -127px;
+ }
+
+ .hebergement_a_marseille {
+
+ 	margin-right: 0px;
+ 	padding-bottom: 20px;
+ }
+
+ .navbarre {
+
+ 	flex-wrap: wrap;
+ }
+
+ #logo >img {
+
+ 	display: flex;
+ }
+
+ .navbarre li
+    {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    #title1_section_head 
+    {
+    	margin-bottom: 10px;
+
+    }    
+
+    .navfiltres >ul {
+
+    	margin-left: 0px;
+    	padding-left: 0px;
+    	width: auto;
+    	flex-wrap: wrap;
+    	padding-bottom: 30px;
+    	vertical-align: 
+
+    }
+
+    .filtres {
+
+    	max-width: 320px;
+
+    	display: flex;
+    }
+
+}*/
