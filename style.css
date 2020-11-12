@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap');
 
 /*body*/
-
 body
 {
   max-width: fit-content;
+  margin-top: 0px;
 }
 
 #bloc-page 
@@ -35,6 +35,7 @@ a
   text-decoration: none;
   color: black;
 }
+
 /*couleur et tailles deslogos*/
 .fas
 {
@@ -57,7 +58,6 @@ header
 }
 
 /*logo reservia*/
-
 #logo >img
 {
   height: 45px;
@@ -108,7 +108,6 @@ header
 }
 
 /*section head*/
-
 .section_head
 {
   padding-left: 25px;
@@ -127,8 +126,8 @@ header
 }
 
 /* section head barre de recherche*/
-
-.navsearch input {
+.navsearch input 
+{
     border: none;
     margin: 10px;
     padding: 5px;
@@ -163,6 +162,7 @@ header
   width: 110px;
   font-style: normal;
 }
+
 #logo_loupe
 {
   display: none;
@@ -186,7 +186,6 @@ header
 }
 
 /* présentation filtres*/
-
 .navfiltres
 {
   margin: auto;
@@ -274,7 +273,6 @@ header
 }
 
 /*section middle*/
-
 /*hébergements à Marseille*/
 .sectionmiddle
 {
@@ -288,15 +286,17 @@ header
 
 .hebergement_a_marseille 
 {
-    background-color: #F2F2F2;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: #F2F2F2;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
 }
+
 .title_midd
 {
   margin-left: 20px;
 }
+
 .container 
 {
   display: flex;
@@ -304,6 +304,7 @@ header
   flex-flow: row wrap;
   padding: 0px;
 }
+
 .flex
 {
   background-color: white;
@@ -314,6 +315,7 @@ header
   margin-bottom: 25px;
   box-shadow: 4px 4px 6px grey;
 }
+
 /*images,titres et logos des vignettes blanches*/
 .imgflex1 
 {
@@ -419,20 +421,38 @@ header
   margin-left: 20px;  
 }
 
+.h2_aside
+{
+  margin-bottom: 5px;
+}
+
+.aside p
+{
+  margin: 0px;
+}
+
+.stars
+{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
 /*activités à Marseille*/
 /*titre*/
 .sectionbottom
 {
     width: 95%;
 }
+
 .activites_a_marseille
 {
   background-color: #F2F2F2;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    width: 100%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
 }
+
 #h_section_bot
 {
   margin-left: 30px;
@@ -462,6 +482,7 @@ header
   margin-top: 0px;
   box-shadow: 4px 4px 6px grey;
 }
+
 .container2 h2
 {
   padding-left: 15px;
@@ -497,7 +518,6 @@ header
 /*footer*/
 .footer
 { background-color: #F2F2F2;
-  
 }
 
 .container_footer
@@ -506,6 +526,7 @@ header
   justify-content: space-between;
   width: 70%;
 }
+
 /*colonne à propos*/
 .a_propos
 {
@@ -604,8 +625,8 @@ header
     .navbarre >ul
     {
       display: inline-flex;
-      vertical-align: center;
       padding-left: 0px;
+      width: 100%;
     }
     .navbarre >ul >li 
     {
@@ -646,8 +667,6 @@ header
     }
 
     /************** barre de recherche responsive *****************/
-    
-    
     .navsearch input 
     {
       font-size: 0.9em;
@@ -707,7 +726,7 @@ header
     {
       padding-bottom: 10px;
     }
-    
+
     .navfiltres h2 
     {
       display: flex;
@@ -716,9 +735,9 @@ header
 
     .filtres
     {
-    margin: 7px;
-    padding-right: 20px;
-    padding-left: 50px;
+      margin: 7px;
+      padding-right: 20px;
+      padding-left: 50px;
     }
 
     .info
@@ -728,13 +747,12 @@ header
 
     #h3_filtres 
     {
-    padding-left: 0px;
-    margin-top: 0px;
+      padding-left: 0px;
+      margin-top: 0px;
     }
 
     .circle
     {
-      
       margin-right: 5px;
     }
 
@@ -763,7 +781,7 @@ header
       flex: 1;
       order: 2;
     }
-    
+
     .imgflex1 {
       height: 90px;
       width: 300px;
@@ -827,7 +845,7 @@ header
     .sectionbottom img
     {
       height: 90px;
-      width: 290px;
+      width: 320px;
     }
 
     #h_section_bot 
@@ -839,7 +857,6 @@ header
     .activites_a_marseille
     {
       margin: 0px;
-      
       padding: 0px;
       background-color: white;
     }
@@ -851,7 +868,6 @@ header
       height: 1000px;
       display: flex;
       justify-content: space-around;
-
     }
 
     .flex_bottom
@@ -859,7 +875,6 @@ header
       margin-bottom: 15px;
       margin: 0px;
       max-width: 290px;
-
     }
 
     /************************ footer responsive *************************/
@@ -874,7 +889,8 @@ header
       width: auto;
     }
 
-    .footer h2 {
+    .footer h2 
+    {
       margin-left: 30px;
     }
 
@@ -883,17 +899,30 @@ header
       padding-left: 30px;
     }
 }
-
-
+/******************* ajustements responsive ********************/
+/************************** mobile S ***************************/
+@media (max-width: 320px)
+{
+  .sectionbottom img 
+  {
+    height: 90px;
+    width: 290px;
+  }
+}
 /******************* ajustements responsive ********************/
 /************************** mobile M ***************************/
 
 @media all and (min-width: 375px)
 { 
+  .navbarre >ul
+  {
+    padding-left: 20px;
+    width: 100%;
+  }
   .navbarre >ul >li
   {
     padding-right: 50px;
-    padding-left: 40px;
+    padding-left: 60px;
   }
   .navsearch input
   {
@@ -903,28 +932,19 @@ header
   {
     margin-left: 10px;
   }
-
   .container2
   {
     margin-left: 5px;
     height: 1080px;
   }
-
   .flex_bottom
   {
     max-width: 320px;
     margin: 5px;
   }
-
-  .sectionbottom img
-  {
-    height: 100px;
-    width: 320px;
-  }
 }
-
-
-/**************** mobile L *********************/
+/******************* ajustements responsive ********************/
+/*************************** mobile L **************************/
 @media all and (min-width: 425px)
 {
   .navbarre >ul >li
@@ -941,10 +961,8 @@ header
     margin-left: 30px;
   }
 }
-
-
-
-/***************** tablettes ********************/
+/******************* ajustements responsive ********************/
+/*************************** tablettes *************************/
 @media all and (min-width: 768px)
 {
     header
@@ -955,21 +973,23 @@ header
     {
       height: 55px;
     }
-    .navbarre >ul >li {
+    .navbarre 
+    {
+    width: 650px;
+    }
+    .navbarre >ul >li 
+    {
       padding-right: 80px;
       padding-left: 70px;
     } 
-
     #navresponsive 
     {
       display: none;
     }
-
     #navbold
     {
       display: flex;
     }
-
     .section_head 
     {
       padding-left: 25px;
@@ -985,53 +1005,44 @@ header
       height: 60px;
       border: 23px solid #F2F2F2;
     }
-
     #logo_loupe 
     {
       display: none;
     }
-
     .navsearch button 
     {
       display: inline-block;
       height: 60px;
     }
-
     .navfiltres >ul 
     {
       margin-left: 30px;
     }
-
     .filtres 
     {
       margin: 15px;
       padding-right: 30px;
       padding-left: 60px;
     }
-
     #h3_filtres 
     {
       margin-bottom: 30px;
     }
-
     .container2
     {
       display: flex;
-      justify-content: space-around;
-      flex-flow: row wrap;
       height: 600px;
     }
-
     .flex_bottom 
     {
       min-width: 290px;
       margin: auto;
+      margin-bottom: 10px;
     }
     .sectionbottom img 
     {
       width: 290px;
     }
-
     .container_footer 
     {
       display: flex;
@@ -1048,13 +1059,10 @@ header
       margin-left: 60px;
     }
 }
-
-/***************** laptop  ********************/
+/******************* ajustements responsive ********************/
+/**************************** laptop  **************************/
 @media all and (min-width: 1024px)
 {
-  
-/*barre de navigation*/
-
   header
   {
     flex-flow: wrap;
@@ -1063,12 +1071,10 @@ header
   {
       padding-top: 20px;
   }
-
   .navbarre
   {
     width: 600px;
   }
-
   .navbarre >ul
   {
     display: flex;
@@ -1076,7 +1082,6 @@ header
     margin: auto;
     border : none;
   }
-
   .navbarre >ul >li
   {
     width: auto;
@@ -1084,24 +1089,21 @@ header
     padding-top: 40px;
     border-bottom: none;
   }
-
   #hebergements
   {
     border-top: solid 1px #0065FC;
     padding-top: 39px;
     border-bottom: none;    
   }
-
-.navbarre >ul >li {
+  .navbarre >ul >li 
+  {
     padding-right: 0px; 
     padding-left: 0px;
-}
-
+  }
   .navsearch form 
   {
       margin-left: 0px; 
   }
-
   .navfiltres h2
   {
     margin-left: 10px;
@@ -1120,29 +1122,14 @@ header
   }
   .container2
   {
-    height: 500px;
+    height: 520px;
   }
   .flex_bottom
   {
     min-width: 270px;
   }
-  .sectionbottom img 
-    {
-      width: 270px;
-    }
-
-    .container_footer
-    {
-      justify-content: space-between;
-    }
-
-
-
-
-
-
-
-
-
-
+  .container_footer
+  {
+    justify-content: space-between;
+  }
 }
